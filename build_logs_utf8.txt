@@ -1,0 +1,264 @@
+﻿node.exe : > [debug] 
+[2026-03-14T17:20:39.132Z] 
+Found config in file 
+"C:\Users\LENOVO (233580)\Do
+wnloads\ai-job-matcher\ai-jo
+b-matcher\vercel.json"
+At C:\Users\LENOVO (233580)\
+AppData\Roaming\npm\vercel.p
+s1:24 char:5
++     & "node$exe"  "$basedi
+r/node_modules/vercel/dist/v
+c.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo          
+    : NotSpecified: (> [de  
+  bug] [2026...er\vercel.   
+ json":String) [], Remot    
+eException
+    + FullyQualifiedErrorId 
+    : NativeCommandError
+ 
+> [debug] 
+[2026-03-14T17:20:39.133Z] 
+Vercel CLI 50.32.5
+> [debug] 
+[2026-03-14T17:20:39.137Z] 
+Agent/TTY/nonInteractive: 
+isAgent=true 
+agentName=antigravity 
+stdin.isTTY=true 
+--non-interactive=false 
+explicitFalse=false => 
+nonInteractive=false
+> [debug] 
+[2026-03-14T17:20:39.138Z] 
+user supplied known 
+subcommand: "build"
+WARNING! Build not running 
+on Vercel. System 
+environment variables will 
+not be available.
+> [debug] 
+[2026-03-14T17:20:39.341Z] 
+Loaded environment 
+variables from 
+"C:\Users\LENOVO (233580)\Do
+wnloads\ai-job-matcher\ai-jo
+b-matcher\.vercel\.env.previ
+ew.local"
+> [debug] 
+[2026-03-14T17:20:39.367Z] 
+Locating files 
+C:\Users\LENOVO (233580)\Dow
+nloads\ai-job-matcher\ai-job
+-matcher
+> [debug] 
+[2026-03-14T17:20:39.369Z] 
+Ignoring C:\Users\LENOVO (23
+3580)\Downloads\ai-job-match
+er\ai-job-matcher\.gitignore
+> [debug] 
+[2026-03-14T17:20:39.370Z] 
+Ignoring C:\Users\LENOVO (23
+3580)\Downloads\ai-job-match
+er\ai-job-matcher\.vercel
+> [debug] 
+[2026-03-14T17:20:39.371Z] 
+Ignoring C:\Users\LENOVO (23
+3580)\Downloads\ai-job-match
+er\ai-job-matcher\.pytest_ca
+che\.gitignore
+> [debug] 
+[2026-03-14T17:20:39.373Z] 
+Ignoring C:\Users\LENOVO (23
+3580)\Downloads\ai-job-match
+er\ai-job-matcher\frontend\n
+ode_modules
+> [debug] 
+[2026-03-14T17:20:39.373Z] 
+Ignoring C:\Users\LENOVO (23
+3580)\Downloads\ai-job-match
+er\ai-job-matcher\tests\__py
+cache__
+> [debug] 
+[2026-03-14T17:20:39.375Z] 
+Ignoring C:\Users\LENOVO (23
+3580)\Downloads\ai-job-match
+er\ai-job-matcher\backend\.p
+ytest_cache\.gitignore
+> [debug] 
+[2026-03-14T17:20:39.375Z] 
+Ignoring C:\Users\LENOVO (23
+3580)\Downloads\ai-job-match
+er\ai-job-matcher\backend\ap
+p\__pycache__
+> [debug] 
+[2026-03-14T17:20:39.376Z] 
+Ignoring C:\Users\LENOVO (23
+3580)\Downloads\ai-job-match
+er\ai-job-matcher\backend\ap
+p\routers\__pycache__
+> [debug] 
+[2026-03-14T17:20:39.376Z] 
+Ignoring C:\Users\LENOVO (23
+3580)\Downloads\ai-job-match
+er\ai-job-matcher\backend\ap
+p\models\__pycache__
+> [debug] 
+[2026-03-14T17:20:39.376Z] 
+Ignoring C:\Users\LENOVO (23
+3580)\Downloads\ai-job-match
+er\ai-job-matcher\backend\ap
+p\services\__pycache__
+> [debug] 
+[2026-03-14T17:20:39.376Z] 
+Ignoring C:\Users\LENOVO (23
+3580)\Downloads\ai-job-match
+er\ai-job-matcher\backend\ap
+p\utils\__pycache__
+> [debug] 
+[2026-03-14T17:20:39.378Z] 
+Locating files 
+C:\Users\LENOVO (233580)\Dow
+nloads\ai-job-matcher\ai-job
+-matcher [11ms]
+WARNING! Due to `builds` 
+existing in your 
+configuration file, the 
+Build and Development 
+Settings defined in your 
+Project Settings will not 
+apply. Learn More: https://v
+ercel.link/unused-build-sett
+ings
+> [debug] 
+[2026-03-14T17:20:39.399Z] 
+Imported Builder 
+"@vercel/python" from 
+"C:\Users\LENOVO (233580)\Ap
+pData\Roaming\npm\node_modul
+es\vercel\node_modules\@verc
+el\python"
+> [debug] 
+[2026-03-14T17:20:39.795Z] 
+Imported Builder 
+"@vercel/static-build" from 
+"C:\Users\LENOVO (233580)\Ap
+pData\Roaming\npm\node_modul
+es\vercel\node_modules\@verc
+el\static-build"
+> [debug] 
+[2026-03-14T17:20:39.795Z] 
+Resolved builders: 
+"@vercel/python => 6.23.0, 
+@vercel/static-build => 
+2.9.0"
+> [debug] 
+[2026-03-14T17:20:39.806Z] 
+Setting env VERCEL_PROJECT_S
+ETTINGS_NODE_VERSION to 
+"24.x"
+> [debug] 
+[2026-03-14T17:20:39.806Z] 
+Building entrypoint 
+"frontend/package.json" 
+with "@vercel/static-build"
+Installing dependencies...
+
+up to date in 907ms
+
+30 packages are looking for funding
+  run `npm fund` for details
+Running "npm run build"
+
+> ai-job-matcher-frontend@1.0.0 build
+> vite build
+
+[33mThe CJS build of 
+Vite's Node API is 
+deprecated. See https://vite
+.dev/guide/troubleshooting.h
+tml#vite-cjs-node-api-deprec
+ated for more details.[39m
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+(node:8248) [MODULE_TYPELESS
+_PACKAGE_JSON] Warning: 
+Module type of file:///C:/Us
+ers/LENOVO%20(233580)/Downlo
+ads/ai-job-matcher/ai-job-ma
+tcher/frontend/postcss.confi
+g.js is not specified and 
+it doesn't parse as 
+CommonJS.
+Reparsing as ES module 
+because module syntax was 
+detected. This incurs a 
+performance overhead.
+To eliminate this warning, 
+add "type": "module" to 
+C:\Users\LENOVO (233580)\Dow
+nloads\ai-job-matcher\ai-job
+-matcher\frontend\package.js
+on.
+(Use `node --trace-warnings 
+...` to show where the 
+warning was created)
+[32mΓ£ô[39m 2356 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                 [39m[1m[2m  0.73 kB[22m[1m[22m[2m Γöé gzip:   0.42 kB[22m
+[2mdist/[22m[35massets/index-nK5AoG2j.css  [39m[1m[2m 21.67 kB[22m[1m[22m[2m Γöé gzip:   4.41 kB[22m
+[2mdist/[22m[36massets/index-Bu9gk_q1.js   [39m[1m[33m645.05 kB[39m[22m[2m Γöé gzip: 186.81 kB[22m
+[33m
+(!) Some chunks are larger 
+than 500 kB after 
+minification. Consider:
+- Using dynamic import() to 
+code-split the application
+- Use build.rollupOptions.ou
+tput.manualChunks to 
+improve chunking: https://ro
+llupjs.org/configuration-opt
+ions/#output-manualchunks
+- Adjust chunk size limit 
+for this warning via build.c
+hunkSizeWarningLimit.[39m
+[32mΓ£ô built in 8.03s[39m
+> [debug] 
+[2026-03-14T17:20:50.206Z] 
+Setting env VERCEL_PROJECT_S
+ETTINGS_NODE_VERSION to 
+"24.x"
+> [debug] 
+[2026-03-14T17:20:50.206Z] 
+Building entrypoint 
+"api/index.py" with 
+"@vercel/python"
+No Python version specified in .python-version, pyproject.toml, or Pipfile.lock. Using python version: 3.12
+Creating virtual environment at "C:\Users\LENOVO (233580)\Downloads\ai-job-matcher\ai-job-matcher\.vercel\python\.venv"...
+Error: spawn python3.12 
+ENOENT
+> [debug] 
+[2026-03-14T17:20:53.631Z] 
+Valid access token, 
+skipping token refresh.
+> [debug] 
+[2026-03-14T17:20:53.711Z] 
+#1 ΓåÆ GET https://api.verce
+l.com/v2/user
+> [debug] 
+[2026-03-14T17:20:54.522Z] 
+#1 ΓåÉ 200 OK: sfo1::7nf9q-1
+773508857095-67e632dd95d0 
+[811ms]
+> [debug] 
+[2026-03-14T17:20:55.679Z] 
+Telemetry event tracked
+> [debug] 
+[2026-03-14T17:20:56.505Z] 
+Telemetry subprocess exited 
+with code 0

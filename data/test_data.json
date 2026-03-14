@@ -1,0 +1,18 @@
+{
+  "description": "50 sample worker profiles and 50 job listings for AI Job Matching Agent testing",
+  "workers": [
+    {"id": "w001", "name": "Arjun Sharma", "skills": ["Python", "Django", "PostgreSQL", "REST API", "Git"], "experience_years": 3, "preferred_role": "Backend Developer", "location": "Mumbai"},
+    {"id": "w002", "name": "Priya Nair", "skills": ["React", "TypeScript", "CSS", "Figma", "Next.js"], "experience_years": 2, "preferred_role": "Frontend Developer", "location": "Bangalore"},
+    {"id": "w003", "name": "Rahul Gupta", "skills": ["Machine Learning", "Python", "TensorFlow", "Pandas", "Scikit-learn"], "experience_years": 5, "preferred_role": "ML Engineer", "location": "Hyderabad"},
+    {"id": "w004", "name": "Sneha Patel", "skills": ["AWS", "Docker", "Kubernetes", "Terraform", "Linux"], "experience_years": 6, "preferred_role": "DevOps Engineer", "location": "Pune"},
+    {"id": "w005", "name": "Vikram Reddy", "skills": ["Java", "Spring", "Microservices", "Kafka", "MySQL"], "experience_years": 7, "preferred_role": "Java Developer", "location": "Chennai"}
+  ],
+  "jobs": [
+    {"id": "j001", "title": "Senior Python Backend Developer", "required_skills": ["Python", "FastAPI", "PostgreSQL", "Docker", "Redis"], "experience_level": "senior", "location": "Bangalore", "company": "TechCorp"},
+    {"id": "j002", "title": "React Frontend Engineer", "required_skills": ["React", "TypeScript", "Next.js", "GraphQL", "Tailwind CSS"], "experience_level": "mid", "location": "Mumbai", "company": "DesignFirst"},
+    {"id": "j003", "title": "Machine Learning Engineer", "required_skills": ["Python", "TensorFlow", "PyTorch", "Machine Learning", "NLP"], "experience_level": "senior", "location": "Hyderabad", "company": "AI Labs"},
+    {"id": "j004", "title": "DevOps Platform Engineer", "required_skills": ["Kubernetes", "Docker", "AWS", "CI/CD", "Terraform"], "experience_level": "senior", "location": "Bangalore", "company": "CloudOps"},
+    {"id": "j005", "title": "Full Stack JavaScript Developer", "required_skills": ["React", "Node.js", "MongoDB", "Express.js", "JavaScript"], "experience_level": "mid", "location": "Chennai", "company": "WebWorks"}
+  ],
+  "note": "Full 50-worker and 50-job dataset available in backend/app/utils/seed_data.py"
+}
