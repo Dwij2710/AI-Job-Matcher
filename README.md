@@ -113,3 +113,4 @@ Every match includes:
 - Transparent scoring with full explanation
 - Bias detection on job descriptions
 - Worker privacy preserved
+
