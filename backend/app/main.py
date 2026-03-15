@@ -12,19 +12,19 @@ app = FastAPI(
     version="1.0.0",
 )
 
-# CORS for Vercel and local
+# CORS for local development
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allow all since Vercel preview URLs change
+    allow_origins=["http://localhost:3000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Include routers under /api prefix for Vercel compatibility
-app.include_router(workers.router, prefix="/api/worker-profile", tags=["Workers"])
-app.include_router(jobs.router, prefix="/api/job", tags=["Jobs"])
-app.include_router(matching.router, prefix="/api/match", tags=["Matching"])
+# Include routers
+app.include_router(workers.router, prefix="/worker-profile", tags=["Workers"])
+app.include_router(jobs.router, prefix="/job", tags=["Jobs"])
+app.include_router(matching.router, prefix="/match", tags=["Matching"])
 
 
 @app.on_event("startup")
